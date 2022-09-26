@@ -1,0 +1,136 @@
+*{
+    font-family: 'Comfortaa', cursive;
+}
+
+main{
+    position: relative;
+    top: 6.25rem;
+}
+
+.check{
+    display: flex;
+    border: .0625rem solid #000;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.875rem;
+    height: 11rem;
+    border-radius: 1.25rem;
+}
+
+.check input{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.check div{
+    display: flex;
+    flex-direction: row;
+    gap: .625rem;
+}
+
+.check label{
+    background: #000;
+    color: #fff;
+    width: 1.25rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .3125rem;
+    border-radius: 100%;
+    padding: 0px .9375rem 0px .9375rem;
+}
+
+.check div:first-child label{
+    background: rgb(123, 183, 33);
+}
+
+.check div:nth-child(2) label{
+    background: rgb(0, 0, 241);
+}
+
+.check div:nth-child(3) label{
+    background: rgb(230, 122, 230);
+}
+
+.check div:nth-child(4) label{
+    background: rgb(232, 0, 0);
+}
+
+.check div:nth-child(5) label{
+    background: rgb(180, 153, 0);
+}
+
+.btn2{
+    text-decoration: none;
+    color: #fff;
+    border: .0625rem solid #000;
+    position: relative;
+    top: 4rem;
+    padding: 1.5rem 2rem;
+    background: rgb(111, 73, 249);
+    border-radius: .3125rem;
+    font-size: 1.2rem;
+    transition: .2s ease 0;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background: rgb(27, 27, 27);
+    transition: .2s;
+}
+
+.information{
+    position: relative;
+    left: 0%;
+    margin-bottom: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+}
+
+.texto{
+    margin-left: .3125rem;
+    display: flex;
+    flex-direction: column;
+    gap: .3125rem;
+}
+
+.imagen2{
+    width: 18.75rem;
+    max-height: 18.5rem;
+    border-radius: .3125rem;
+    margin-right: .9375rem;
+}
+
+h1{
+    border: .0625rem solid #000;
+    border-radius: .3125rem;
+    padding: .3125rem;
+    background: #fff;
+}
+
+
+/*
+.button-container{
+    border-radius: 5px;
+    position: relative;
+    top: 4rem;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    background: rgb(111, 73, 249);
+    transition: .4s;
+}
+
+.button-container a{
+    border: 1px solid black;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.button-container:hover{
+    cursor: pointer;
+    background: rgb(68, 44, 154);
+    font-size: 1.2rem;
+}
+*/

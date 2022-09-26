@@ -1,0 +1,52 @@
+*{
+    font-family: 'Comfortaa', cursive;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+}
+
+.inform-container{
+    border-radius: .3125rem;
+    border: .0625rem solid #000;
+    padding: .9375rem;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.eventos{
+    margin-top: -4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin: .5rem 0;
+}
+
+.eventos a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(92, 47, 255);
+    padding: .3125rem;
+    border-radius: .3125rem;
+    transition: .2s;
+}
+
+.eventos a:hover{
+    background: rgb(77, 40, 214);
+}
